@@ -1,6 +1,13 @@
-h1{
+.Introduction{
 	text-align: center;
+	font-family: verdana;
+	margin-top: 50px;
 }
-h3{
-	text-align: center;
+.Education{
+	font-family: verdana;
+	margin-left: 40px;
+}
+.Projects{
+	font-family: verdana;
+	margin-left: 40px;
 }
