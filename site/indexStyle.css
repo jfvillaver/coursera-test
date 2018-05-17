@@ -11,3 +11,13 @@
 	font-family: verdana;
 	margin-left: 40px;
 }
+img{
+	display: inline;
+    margin-left: 80px;
+    margin-right: auto;
+    width: 40%;
+    padding: 7px;
+}
+body{
+	background-color: #e6ffff;
+}
