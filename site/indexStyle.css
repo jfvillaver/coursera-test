@@ -1,11 +1,25 @@
 .Introduction{
 	text-align: center;
-	font-family: verdana;
+	font-family: "roboto", sans-serif;
 	margin-top: 50px;
 }
 .SummaryofQualifications, .Education, .Projects{
-	font-family: verdana;
+	font-family: "roboto", sans-serif;
 	margin-left: 40px;
+}
+.menu{
+	text-align: center;
+	word-spacing: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+a:link, a:visited{
+	color:black;
+	text-decoration: none;
+}
+a:hover, a:active{
+	color: gray;
 }
 img{
 	display: inline;
@@ -15,5 +29,17 @@ img{
     padding: 7px;
 }
 body{
-	background-color: #e6ffff;
+	background-color: #DCDCDC;
+	margin-left: 100px;
+	margin-right: 150px;
+
 }
+footer{
+	position: absolute;
+	bottom: 0;
+}
+.linkedin{
+	width:40px;
+	height: auto;
+}
+
