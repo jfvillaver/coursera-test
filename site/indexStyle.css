@@ -3,15 +3,7 @@
 	font-family: verdana;
 	margin-top: 50px;
 }
-.SummaryofQualifications{
-	font-family: verdana;
-	margin-left: 40px;
-}
-.Education{
-	font-family: verdana;
-	margin-left: 40px;
-}
-.Projects{
+.SummaryofQualifications, .Education, .Projects{
 	font-family: verdana;
 	margin-left: 40px;
 }
