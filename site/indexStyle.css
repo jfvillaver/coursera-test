@@ -1,5 +1,5 @@
 .header-top{
-	background-color: #778899;
+	background-color:black;
 }
 .Introduction{
 	text-align: center;
@@ -7,42 +7,48 @@
 	margin-top: 50px;
 	padding: 30px;
 }
-.SummaryofQualifications, .Education, .Projects{
-	font-family: "roboto", sans-serif;
+.SummaryofQualifications, .Education, .Projects,.contact{
 	margin-left: 150px;
 	padding-top: 30px;
 }
 .menu{
 	text-align: center;
 	word-spacing: 30px;
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 50px;
 	font-size: 20px;
 }
 a:link, a:visited{
-	color:black;
+	color:white;
 	text-decoration: none;
 }
 a:hover, a:active{
 	color: white;
 }
-img{
-	display: inline;
-    margin-left: 80px;
-    margin-right: auto;
-    width: 40%;
-    padding: 7px;
-}
 body{
-	background-color: #DCDCDC;
+	font-family: "roboto", sans-serif;
+	background-color: black;
 	margin:0;
 	padding:0;
+	color: white
 }
 footer{
 	position: bottom;
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 .linkedin{
 	width:40px;
 	height: auto;
+	margin-left: 40px;
+}
+.footer-contact{
+	margin-left: 40px;
+}
+.pictures > img{
+	width: 500px;
+	padding: 50px;
+	margin-left: 70px;
 }
 
