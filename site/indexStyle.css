@@ -1,15 +1,16 @@
-head{
-	background-color: white;
-	display: block;
+.header-top{
+	background-color: #778899;
 }
 .Introduction{
 	text-align: center;
 	font-family: "roboto", sans-serif;
 	margin-top: 50px;
+	padding: 30px;
 }
 .SummaryofQualifications, .Education, .Projects{
 	font-family: "roboto", sans-serif;
-	margin-left: 40px;
+	margin-left: 150px;
+	padding-top: 30px;
 }
 .menu{
 	text-align: center;
@@ -23,7 +24,7 @@ a:link, a:visited{
 	text-decoration: none;
 }
 a:hover, a:active{
-	color: gray;
+	color: white;
 }
 img{
 	display: inline;
@@ -34,14 +35,11 @@ img{
 }
 body{
 	background-color: #DCDCDC;
-	margin-left: 100px;
-	margin-right: 150px;
-
+	margin:0;
+	padding:0;
 }
 footer{
-	position: absolute;
-	bottom: 0;
-	padding-bottom: 30px;
+	position: bottom;
 }
 .linkedin{
 	width:40px;
