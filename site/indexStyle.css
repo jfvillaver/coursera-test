@@ -1,11 +1,21 @@
 .header-top{
 	background-color:black;
+	text-align: center;
+	position: relative;
+}
+.headerphoto{
+	width: 100%;
+	height: auto;
 }
 .Introduction{
 	text-align: center;
 	font-family: "roboto", sans-serif;
-	margin-top: 50px;
-	padding: 30px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 40px;
+
 }
 .SummaryofQualifications, .Education, .Projects,.contact{
 	margin-left: 150px;
