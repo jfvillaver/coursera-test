@@ -17,7 +17,7 @@
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-  	font-size: 40px;
+  	font-size: 60px;
   	color: white;
 
 }
@@ -77,6 +77,7 @@ footer{
 }
 .pictures{
 	float: right;
+	padding-left: 95px;
 }
 .pictures > img{
 	width: 430px;
