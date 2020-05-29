@@ -30,17 +30,15 @@
 	min-height: 80vh;
 }
 .home-image{
-	margin-left:250px;
-	margin-right:250px;
-	padding: 30px;
-
+	padding:100px;
 }
 .home-image >p{
 	font-size: 18px;
+	padding: 20px;
 }
 .home-image > img{
 	float: left;
-	width: 50%;
+	width: 40%;
 	padding-right:30px; 
 }
 .Projects{
@@ -76,6 +74,7 @@ footer{
 	position: absolute;
 	bottom: 0;
 	padding-top:20px
+
 }
 .linkedin{
 	width:40px;
