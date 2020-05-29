@@ -22,7 +22,7 @@
 
 }
 .SummaryofQualifications, .Education, .Projects,.contact{
-	margin-left: 150px;
+	margin-left: 50px;
 	padding-top: 30px;
 }
 .Projects{
@@ -50,18 +50,18 @@ body{
 	color: black;
 }
 footer{
-	position: bottom;
 	background-color: #DCDCDC;
-	padding-bottom: 20px;
-
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 50px;
 }
 .linkedin{
 	width:40px;
 	height: auto;
 }
-.footer-contact{
-	margin-left: 40px;
-	padding-top: 50px;
+.pictures{
+	float: right;
 }
 .pictures > img{
 	width: 430px;
