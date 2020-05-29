@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .header-top{
 	text-align: center;
 	position: relative;
@@ -41,7 +44,7 @@ a:hover, a:active{
 }
 body{
 	font-family: "roboto", sans-serif;
-	background-color: white;
+	background: white;
 	margin:0;
 	padding:0;
 	color: black;
@@ -49,20 +52,20 @@ body{
 footer{
 	position: bottom;
 	background-color: #DCDCDC;
-	padding-top: 20px;
 	padding-bottom: 20px;
+
 }
 .linkedin{
 	width:40px;
 	height: auto;
-	margin-left: 40px;
 }
 .footer-contact{
 	margin-left: 40px;
+	padding-top: 50px;
 }
 .pictures > img{
 	width: 430px;
-	padding: 100px;
+	padding: 20px;
 
 }
 
