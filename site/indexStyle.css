@@ -8,8 +8,7 @@
 .headerphoto{
 	width: 100%;
 	height: auto;
-	filter:brightness(90%);
-}
+	}
 .Introduction{
 	text-align: center;
 	font-family: "roboto", sans-serif;
@@ -17,7 +16,7 @@
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-  	font-size: 60px;
+  	font-size: 50px;
   	color: white;
 
 }
