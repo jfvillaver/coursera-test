@@ -1,5 +1,7 @@
 *{
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 .header-top{
 	text-align: center;
@@ -26,19 +28,23 @@
 }
 #page-container{
 	position: relative;
-	min-height: 80vh;
+	padding-bottom: 100px;
+	overflow: hidden;
+	display: block;
 }
 .home-image{
-	padding:100px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 .home-image >p{
+	padding-top: 50px;
 	font-size: 18px;
-	padding: 20px;
 }
 .home-image > img{
 	float: left;
 	width: 40%;
 	padding-right:30px; 
+	padding-bottom: 20px;
 }
 .Projects{
 		padding-bottom: 70px;
@@ -60,24 +66,20 @@ a:hover, a:active{
 body{
 	font-family: "roboto", sans-serif;
 	background: white;
-	margin:0;
-	padding:0;
 	color: black;
+	height: 100%;
+	position: relative;
 
 }
 footer{
 	background-color: #DCDCDC;
-	float: left;
-	width: 100%;
-	padding-left:20px;
+	padding:5px;
 	position: absolute;
-	bottom: 0;
-	padding-top:20px
-
+	bottom:0;
+	width: 100%;
 }
 .linkedin{
 	width:40px;
-	height: auto;
 }
 .pictures{
 	float: right;
@@ -88,4 +90,41 @@ footer{
 	padding: 20px;
 
 }
+
+/**Mobile**/
+
+
+@media(min-width: 768px) and (max-width: 991px){
+	.home-image >img{
+		width: 70%;
+		padding-bottom: 0;
+		position: relative;
+	  	left: 50%;
+	  	transform: translate(-50%, -20%);
+	}
+	.home-image >p{
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-size: 15px;
+		clear: both;
+	}
+
+}
+@media(min-width: 320px) and (max-width: 767px){
+	.home-image >img{
+		width: 50%;
+		padding-bottom: 0;
+		position: relative;
+	  	left: 50%;
+	  	transform: translate(-50%, -20%);
+	}
+	.home-image >p{
+		padding-top: 5px;
+		padding-bottom: 10px;
+		font-size: 12px;
+		clear: both;
+	}
+
+}
+
 
