@@ -28,7 +28,6 @@
 	padding-top: 30px;
 }
 #page-container{
-	min-height: calc(100vh - 40px);
 	position: relative;
 	padding-bottom: 120px;
 	overflow: hidden;
@@ -76,9 +75,11 @@ body{
 }
 footer{
 	background-color: #DCDCDC;
-	padding:5px;
-	position: absolute;
+	padding:10px;
+	position: fixed;
 	bottom:0;
+	left: 0;
+	height: 100px;
 	width: 100%;
 }
 .linkedin{
